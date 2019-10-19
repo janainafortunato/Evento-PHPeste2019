@@ -1,0 +1,19 @@
+<div class="container">
+
+<h1>Ediatr Usuários</h1>
+
+
+<form action="/editar-usuario?id=<?=$id?>" method="POST">
+	Nome<br>
+	<input type="text" class="form-control"  value="<?=$usuarios['nome']?>" name="nome" required><br>
+
+	Email<br>
+	<input type="email"  class="form-control" value="<?=$usuarios['email']?>" name="email" required><br>
+
+	Senha<br>
+	<input type="password" class="form-control"  name="senha"><br>
+
+	<button class="btn btn-primary btn-block">Enviar</button>
+	
+</form>
+</div>
